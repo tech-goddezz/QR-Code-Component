@@ -1,0 +1,35 @@
+body {
+   background-color: #D5E1EF; 
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0;
+}
+
+.main {
+    border: 3px solid black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    border-radius: 20px;
+    padding: 16px 16px 40px 16px;
+    margin: 40px;
+}
+
+.qr-component {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.header {
+    color: #1F314F;
+    padding-top: 24px;
+}
+
+.content {
+    color: #1F314F;
+}
