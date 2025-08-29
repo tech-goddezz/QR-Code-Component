@@ -1,18 +1,47 @@
+
 body {
-    background: #d5e1ef;
+    background: #D5E1EF;
     display: flex;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    min-height: 100vh;
+
 }
 
 .card-component {
-    
+    background: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 16px 16px 40px 16px;
+    max-width: 320px;
+    box-shadow: 0 4px 8px rgb(73, 70, 70);
 }
 
+img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
 
+h1 {
+    color: #1F314F;
+    font-size: 22px;
+    font-family: 'Outfit' sans-serif;
+    font-weight: bold;
+    line-height: 120%;
+    letter-spacing: 0px;
+}
 
-
+p {
+    color: #68778D;
+    font-size: 15px;
+    font-family: 'Outfit' sans-serif;
+    font-weight: lighter;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+}
+ 
 
 
 
@@ -49,7 +78,6 @@ body {
 
 
 /* 
-
 
 body {
   background: #d5e1ef;
@@ -89,8 +117,8 @@ p {
   padding: 0 12px;
 }
 
+ 
  */
-
 
 
 
